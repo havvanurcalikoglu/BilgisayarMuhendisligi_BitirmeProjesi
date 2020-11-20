@@ -50,7 +50,9 @@ Benim projemin yapılan projelerden farklılığı ise; ele alınan konunun amac
 **3- KULLANILACAK TEKNOLOJİLER**
 
 Projemi Python Jupyter Notebook ortamında geliştirip; Tensorflow, OpenCV, Scikit-learn, Numpy,Keras kütüphanelerinden faydalanacağım. <br/>
-Veri seti için hazır kaynak kullanmayı planlıyorum.Ancak test aşamasında, İstanbul'da trafiğe açık alanlardan da çektiğim görüntüleri kullanabilirim.Python kullanmamın sebebi makine öğrenmesi konusunda oldukça kolay yazımı olması ve literatür taramasında oldukça fazla açık kaynak kod bulunmasından dolayıdır.
+Veri seti için hazır kaynak kullanmayı planlıyorum.Ancak test aşamasında, İstanbul'da trafiğe açık alanlardan da çektiğim görüntüleri kullanabilirim. <br/>
+Yapay zeka programlama için herhangi bir dil kullanılabilir fakat burada bir tek dilden veya herhangi bir dilden bahsetmek yerine, geliştirilmek istenen yazılım özelinde karşılaşılacak sorunlara uygun dil seçmek en mantıklısı olacaktır.Python kullanmamın sebebi, diğer dillere göre oldukça kolay yazımı olması, bunun yanında diğer dillere kıyasla daha kısa sürede yazılması, literatür taramasında oldukça fazla açık kaynak kod bulunması ve güncel projelerin yine Python'da yazılmasından dolayıdır.Ayrıca Python’un kullanıcılarına sunduğu geniş kütüphanesi de tercih sebeplerinden bir tanesidir. <br/>
+Projemi kodlarken Python bilgisi yanında, görüntü işleme ve python kütüphaneleri kullanacağımdan Udemy, Coursera, Youtube, Github gibi platformlardan faydalanacağım.
 
 
 
