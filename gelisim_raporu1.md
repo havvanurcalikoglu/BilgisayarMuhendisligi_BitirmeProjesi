@@ -65,6 +65,7 @@ Projeyi tek başıma yürüteceğimden tüm iş paketlerinden ben sorumluyum. <b
 
 
 <br/>
+<br/>
 
 ![Proje planlama](https://user-images.githubusercontent.com/56633000/99888936-a5cc1f80-2c61-11eb-934a-10528a2ed078.PNG)
 
