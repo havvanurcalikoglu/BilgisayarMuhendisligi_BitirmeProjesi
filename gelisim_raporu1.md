@@ -76,13 +76,13 @@ Hedeflenen proje, araç ve araç çevresini tespit eden bir masaüstü uygulamas
 Projeyi Windows işletim sistemi üzerinde çalıştıracağım. 
 (Daha sonradan Linux ile de yürütülebilir.) <br/>
 Nesne tanıma, görüntülerdeki veya videolardaki nesneleri tanımlamak için bir bilgisayarlı görü tekniğidir. Nesne tanıma, derin öğrenme ve makine öğrenme algoritmalarının önemli bir çıktısıdır. Tensorflow , veri akış grafiklerini kullanarak sayısal hesaplama için açık defter bir yazılım kitaplığıdır. Grafikteki düğümler matematiksel temsil sırasında, grafik kenarları aralarında iletişim kuran çok boyutlu veri dizilerini temsil eder.OpenCV, açık kaynak bir bilgisayarla görme ve makine öğrenimi yazılım kitaplığıdır. OpenCV, bilgisayarla görme uygulamaları için ortak bir altyapı sağlamak ve ticari ürünlerde makine algısının sağlanması hızlandırmak için kullanılır. <br/>
-Projenin olmazsa olmazları nesne tanıma, sınıflandırma, makine öğrenmesi algoritmaları ve OpenCV, Tenserflow gibi kütüphanelerdir.Bu teknolojiler ile istenen çıktılara ulaşılacaktır. <br/>
-Araç ve nesne tespiti görüntü işleme algoritmaları ile elde edilir. <br/>
-•	Görüntü işleme, aracın son derece güvenilir bir şekilde yolculuğunu sağlar. <br/>
-•	Görüntü işleme, canlı veya cansız varlıkların güvenliğini sağlar. <br/>
+Araç ve nesne tespiti görüntü işleme algoritmaları ile elde edilir.Projenin olmazsa olmazları: <br/>
+•	Proje, aracın son derece güvenilir bir şekilde yolculuğunu sağlar. <br/>
+•	Canlı veya cansız varlıkların güvenliğini sağlar. <br/>
 •	Görüntü işleme ile  kaza oranı azaltılır. <br/>
-•	Görüntü işleme, sürücüye bilinçli yolculuk bir sağlar. <br/>
-Bu sayede açıklanan tüm sistem gereksinimleri sağlanır. Projenin ilerleyen aşamalarında gelişmeye açık olduğunu da belitirmek isterim.
+•	Sürücüye bilinçli yolculuk bir sağlanır. <br/>
+Nesne tanıma, sınıflandırma, makine öğrenmesi algoritmaları ve OpenCV, Tenserflow gibi kütüphaneler ile istenen çıktılara ulaşılacaktır. Bu sayede açıklanan tüm sistem gereksinimleri sağlanır.<br/>
+Projenin ilerleyen aşamalarında gelişmeye açık olduğunu da belitirmek isterim.
 
 
 
