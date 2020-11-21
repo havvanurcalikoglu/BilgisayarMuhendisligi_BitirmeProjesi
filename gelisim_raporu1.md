@@ -80,7 +80,7 @@ Araç ve nesne tespiti görüntü işleme algoritmaları ile elde edilir.Projeni
 •	Proje, aracın son derece güvenilir bir şekilde yolculuğunu sağlar. <br/>
 •	Canlı veya cansız varlıkların güvenliğini sağlar. <br/>
 •	Görüntü işleme ile  kaza oranı azaltılır. <br/>
-•	Sürücüye bilinçli yolculuk bir sağlanır. <br/>
+•	Sürücüye bilinçli bir yolculuk sağlanır. <br/>
 Nesne tanıma, sınıflandırma, makine öğrenmesi algoritmaları ve OpenCV, Tenserflow gibi kütüphaneler ile istenen çıktılara ulaşılacaktır. Bu sayede açıklanan tüm sistem gereksinimleri sağlanır.<br/>
 Projenin ilerleyen aşamalarında gelişmeye açık olduğunu da belitirmek isterim.
 
