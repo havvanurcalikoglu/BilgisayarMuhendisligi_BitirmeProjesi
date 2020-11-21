@@ -61,11 +61,12 @@ Projemi kodlarken Python bilgisi yanında, görüntü işleme ve python kütüph
 Projeyi tek başıma yürüteceğimden tüm iş paketlerinden ben sorumluyum. <br/>
 İş bölümünün zamanlaması Mayıs 2021’de bitmek üzerine planlanmıştır.
 
-![Proje planlama](https://lh3.googleusercontent.com/-bTZQ_Ssow2E/X7j5M8gx5kI/AAAAAAABAUM/iqAbGkCVEX8Ye5icEGP3piCU74EXM0BzACLcBGAsYHQ/w540-h556/image.png)
+![Proje planlama](https://user-images.githubusercontent.com/56633000/99888902-5c7bd000-2c61-11eb-80c7-67592ef40f8b.PNG)
+
 
 <br/>
 
-![Proje planlama](https://lh3.googleusercontent.com/-QDXujP7OwyQ/X7j5q2n-QlI/AAAAAAABAUU/XrwUENU0mS0NU_CU2yuliNxRhpoiAOkVgCLcBGAsYHQ/w543-h450/image.png)
+![Proje planlama](https://user-images.githubusercontent.com/56633000/99888936-a5cc1f80-2c61-11eb-934a-10528a2ed078.PNG)
 
 <br/>
 <br/>
