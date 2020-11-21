@@ -58,9 +58,16 @@ Projemi kodlarken Python bilgisi yanında, görüntü işleme ve python kütüph
 
 **4- İŞ BÖLÜMÜ PLANLAMA**
 
-Projeyi tek başıma yürüteceğimden tüm iş paketlerinden (  literatür taramasi, metodoloji, deneme ve sonuç ) ben sorumluyum.
+Projeyi tek başıma yürüteceğimden tüm iş paketlerinden ben sorumluyum.
 
+![Proje planlama](https://lh3.googleusercontent.com/-bTZQ_Ssow2E/X7j5M8gx5kI/AAAAAAABAUM/iqAbGkCVEX8Ye5icEGP3piCU74EXM0BzACLcBGAsYHQ/w540-h556/image.png)
 
+<br/>
+
+![Proje planlama](https://lh3.googleusercontent.com/-QDXujP7OwyQ/X7j5q2n-QlI/AAAAAAABAUU/XrwUENU0mS0NU_CU2yuliNxRhpoiAOkVgCLcBGAsYHQ/w543-h450/image.png)
+
+<br/>
+<br/>
 
 **5- HEDEFLENEN ÇIKTILAR**
 
