@@ -59,7 +59,7 @@ Projemi kodlarken Python bilgisi yanında, görüntü işleme ve python kütüph
 **4- İŞ BÖLÜMÜ PLANLAMA**
 
 Projeyi tek başıma yürüteceğimden tüm iş paketlerinden ben sorumluyum. <br/>
-İş bölümünün planlaması Mayıs 2021’de bitmek üzerine planlanmıştır.
+İş bölümünün zamanlaması Mayıs 2021’de bitmek üzerine planlanmıştır.
 
 ![Proje planlama](https://lh3.googleusercontent.com/-bTZQ_Ssow2E/X7j5M8gx5kI/AAAAAAABAUM/iqAbGkCVEX8Ye5icEGP3piCU74EXM0BzACLcBGAsYHQ/w540-h556/image.png)
 
