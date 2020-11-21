@@ -74,7 +74,7 @@ Projeyi tek başıma yürüteceğimden tüm iş paketlerinden ben sorumluyum. <b
 
 Hedeflenen proje, araç ve araç çevresini tespit eden bir masaüstü uygulamasıdır. <br/>
 Projeyi Windows işletim sistemi üzerinde çalıştıracağım. 
-(Linux ile de yürütülebilir.) <br/>
+(Daha sonradan Linux ile de yürütülebilir.) <br/>
 Nesne tanıma, görüntülerdeki veya videolardaki nesneleri tanımlamak için bir bilgisayarlı görü tekniğidir. Nesne tanıma, derin öğrenme ve makine öğrenme algoritmalarının önemli bir çıktısıdır. Tensorflow , veri akış grafiklerini kullanarak sayısal hesaplama için açık defter bir yazılım kitaplığıdır. Grafikteki düğümler matematiksel temsil sırasında, grafik kenarları aralarında iletişim kuran çok boyutlu veri dizilerini temsil eder.OpenCV, açık kaynak bir bilgisayarla görme ve makine öğrenimi yazılım kitaplığıdır. OpenCV, bilgisayarla görme uygulamaları için ortak bir altyapı sağlamak ve ticari ürünlerde makine algısının sağlanması hızlandırmak için kullanılır.
 Projenin olmazsa olmazları nesne tanıma, sınıflandırma, makine öğrenmesi algoritmaları ve OpenCV, Tenserflow gibi kütüphanelerdir.Bu teknolojiler ile istenen çıktılara ulaşılacaktır. <br/>
 Araç ve nesne tespiti görüntü işleme algoritmaları ile elde edilir. <br/>
