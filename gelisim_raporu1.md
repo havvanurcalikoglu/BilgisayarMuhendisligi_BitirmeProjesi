@@ -1,4 +1,4 @@
-# Bilgisayar-Muhendisligi-Bitirme-Projesi 1.RAPOR
+# Bilgisayar-Muhendisligi-Bitirme-Projesi 1.Rapor
 ## Araçların Çevresinde Tehlike Oluşturabilecek Varlıkların Görüntü İşleme ile Tespit Edilmesi
 
 **1- PROJE ÖZETİ**
