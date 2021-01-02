@@ -22,7 +22,7 @@ Gantt Chart : İş bölümünün zamanlaması Mayıs 2021’de bitmek üzerine y
 
 **5- İŞ DAĞILIMI** 
 
-03.01.2021 tarihine kadar yapılan çalışma saat cinsinden yüzdesel olarak tabloda gösterilmektedir.Projeyi tek yürüttüğümden çalışmanın tamamı bana aittir.
+03.01.2021 tarihine kadar yapılan çalışma, saat cinsinden yüzdesel olarak tabloda gösterilmektedir.Projeyi tek yürüttüğümden çalışmanın tamamı bana aittir.
 
                       
 | İş Tanımı | Yüzdesel Saat | Proje Sorumlusu                      |                   
