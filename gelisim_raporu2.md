@@ -36,9 +36,9 @@ Görüntü İşleme ve Nesne Tespiti çalışmaları için faydalandığım kayn
 11. Görüntü İşleme Ders Notları  
     İstanbul Üniversitesi Cerrahpaşa, 2019-2020 Bilgisayar Mühendisliği Bölümü , Doç. Dr. Selçuk SEVGEN  
     
-12. "Opencv Kurulumu", https://opencv.org/,  
+12. "Opencv Kurulumu", https://opencv.org/  
       
-13. "Hata Çözümlemeleri", https://stackoverflow.com/,  
+13. "Hata Çözümlemeleri", https://stackoverflow.com/  
       
 14. Kızrak,Ayyüce,Merve. "Derin Öğrenmeye Giriş", Github, 16 Ağustos 2020, https://github.com/ayyucekizrak
 
@@ -46,9 +46,10 @@ Görüntü İşleme ve Nesne Tespiti çalışmaları için faydalandığım kayn
 
 **3- ZORLUKLAR**  
 
-Projeye başlamadan önce OpenCV gibi gerekli kütüphane kurulumlarını gerçekleştirdim.Kurulumdan sonra literatür taraması aşamasındaki nesne tespiti üzerine bulduğum faydalı eğitimleri izledim.Eğitimden sonra hem kütüphanelerin kullanılması hem de görüntü işleme aşamasına geçtim.Bu aşamada Rakam Tanıma, Yüz tanıma gibi çeşitli uygulamaları gerçekleştirdim ve kodlarını Github repoma ekledim.
+Projeye başlamadan önce OpenCV gibi gerekli kütüphane kurulumlarını gerçekleştirdim.Kurulumdan sonra literatür taraması aşamasındaki nesne tespiti üzerine bulduğum faydalı eğitimleri izledim.Eğitimden sonra hem kütüphanelerin kullanılması hem de görüntü işleme aşamasına geçtim.Bu aşamada Rakam Tanıma, Kenar Belirleme gibi çeşitli uygulamaları gerçekleştirdim ve kodlarını Github repoma ekledim.
+Projem için gerekli hazırlığı yaptıktan sonra araç tespiti ve sayımı şeklinde projenin ilk kısmına başladım.Veri seti olarak bulduğum örnek bir kaynağı kodlarım üzerinde çalıştırıp, sonuçlarını inceledim.
 
-### Öğrenilen Kavramlar
+##### Öğrenilen Kavramlar
 
 Görüntü İşleme, görüntüyü dijital form haline getirmek ve bazı işlemleri gerçekleştirmek için geliştirilmiş, spesifik görüntü elde etmek veya ondan bazı yararlı bilgiler çıkarmak için kullanılan bir yöntemdir. Bu yöntemin girdisi video kesiti veya fotoğraf gibi bir görüntüdür. Çıktısı ise görüntünün istenilen ya da dikkat edilmesi gereken bölümüne karşılık gelir.   
 Görüntü işleme temel olarak üç adımda incelenmektedir:  
@@ -73,16 +74,27 @@ HOG – Histogram of Oriented Gradients
 
 **4- ARAÇLAR**  
 
-1. Anaconda Navigator  
-2. Jupyter Notebook 
-3. Spyder  
-4. OpenCV   
-5. Numpy  
-6. TensorFlow  
-7. Github  
-8. Stack Overflow    
-9. Udemy  
+Projenin ilk aşamasında kullanılan araçlar:
 
+1. Anaconda Navigator : Anaconda Navigator, uygulamalarınızı başlatmamıza ve komut satırı komutlarını kullanmanıza gerek kalmadan Anaconda paketlerini, ortamları ve kanalları kolayca yönetmenizi sağlayan Anaconda'da bulunan bir masaüstü grafik kullanıcı arabirimidir.  
+
+2. Jupyter Notebook : Jupyter Notebook, çeşitli programlama dilleri için etkileşimli bir ortam sağlayan açık kaynak kodlu bir programdır.  
+
+3. Spyder : Spyder, Python dilinde bilimsel programlama için açık kaynaklı bir platformlar arası entegre geliştirme ortamıdır.  
+
+4. OpenCV : Gerçek-zamanlı bilgisayar görüsü uygulamalarında kullanılan açık kaynaklı kütüphanedir.  
+
+5. Numpy : NumPy, Python programlama dili için bir kütüphane olup, büyük, çok boyutlu diziler ve matrisler için destek eklerken, bu dizilerde çalışmak için yüksek düzeyli matematiksel fonksiyonların geniş bir koleksiyonudur.  
+
+6. TensorFlow : TensorFlow, bir dizi görev arasında veri akışı ve türevlenebilir programlama için kullanılan ücretsiz ve açık kaynaklı bir yazılım kütüphanesidir. Sembolik bir matematik kütüphanesidir ve sinir ağları gibi makine öğrenimi uygulamaları için de kullanılır.  
+
+7. Udemy : Udemy.com profesyonel yetişkinlere ve öğrencilere yönelik eğitim teknolojisi, kitlesel çevrimiçi açık ders ve bir çevrimiçi öğrenme platformudur.   
+
+8. Stack Overflow : Stack Overflow, bilgisayar programcılığı ile ilgili kullanıcı odaklı soru cevap sitesidir.      
+
+9. Github   
+  
+10. Youtube  
 
 
 **5- İŞ DAĞILIMI** 
