@@ -36,7 +36,7 @@ Görüntü İşleme ve Nesne Tespiti çalışmaları için faydalandığım kayn
     "Digital Image Processing"
 12. Görüntü İşleme Ders Notları  
     İstanbul Üniversitesi Cerrahpaşa, Bilgisayar Mühendisliği Bölümü, Doç.Dr. Selçuk SEVGEN
-13. https://opencv.org/,
+13. https://opencv.org/,  
     "Opencv"
 14. https://stackoverflow.com/,  
     "Hata çözümlemeleri"
