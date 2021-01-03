@@ -1,5 +1,5 @@
 
-### Projede Python ile görüntü işleme yaparak araç takibi yapıyorum.İlk aşamada Opencv kütüphanesini Python'a yüklenmiştir.
+#### Projede Python ile görüntü işleme yaparak araç takibi yapıyorum.İlk aşamada Opencv kütüphanesi Python'a yüklenmiştir.
 
 
 #### Video eklenerek, kod çalıştırıldıktan sonraki çıktıdan anlık bir görüntü:
