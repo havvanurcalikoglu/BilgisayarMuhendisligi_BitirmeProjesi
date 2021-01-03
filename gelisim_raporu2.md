@@ -97,7 +97,7 @@ Bu yöntem kaynak görüntüde aranan nesneyi piksel yoğunluğuna(intensity) g�
 Yönlendirilmiş gradyanların histogramı, nesne algılama amacıyla bilgisayarla görme ve görüntü işlemede kullanılan bir özellik tanımlayıcıdır. Teknik, bir görüntünün lokalize kısımlarındaki gradyan yönelim oluşumlarını sayar.
 
 ![histogram_og](https://user-images.githubusercontent.com/56633000/103486403-b2ba6200-4e0e-11eb-82a7-995f1941cbe2.png)
-
+  
 Template Matching yöntemi dışındaki yöntemler “Sınıflandırıcı” olarak tanımlanan Machine Learning algoritmalarıdır.
 
 #### Karşılaştığım Sorunlar ve Çözümleri  
@@ -108,20 +108,19 @@ Bunun nedeni, görüntünün yolunun yanlış olması veya yazdığım görünt�
 
 Ardından, Opencv'in unicode karakterleri içeren görüntü yollarını desteklemediğini öğrendim.Görüntü yolumda Unicode karakterler içerdiğinden, görüntüyü okumak için aşağıdaki kodu kullandım:  
 
-`import numpy as np
-import cv2
-
-img is in BGR format if the underlying image is a color image
-img = cv2.imdecode(np.fromfile(im_path, dtype=np.uint8), cv2.IMREAD_UNCHANGED)`
+`import numpy as np`  
+`import cv2`  
+`img is in BGR format if the underlying image is a color image`  
+`img = cv2.imdecode(np.fromfile(im_path, dtype=np.uint8), cv2.IMREAD_UNCHANGED)`  
 
 Görüntüyü önce print (img) kullanarak yazdırmayı denedim, önce 'Bulunamadı' yazıyordu bu, yanlış görüntü yolu vermiş olduğum demekti, yolu düzelttim ve tekrar denedim.Bu şekilde hatayı ortadan kaldırdım. 
 
-`try:  
-    img.shape  
-    print("checked for shape".format(img.shape))  
-except AttributeError:  
-    print("shape not found")  
-    #code to move to next frame`   
+`try:  `  
+   ` img.shape  `  
+   ` print("checked for shape".format(img.shape))  `  
+`except AttributeError:  `  
+   ` print("shape not found") `   
+   ` #code to move to next frame`     
     
 2- error: OpenCV(4.5.1) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-oduouqig\opencv\modules\highgui\src\window.cpp:376: error: (-215:Assertion failed) size.width>0 && size.height>0 in function 'cv::imshow'
 
