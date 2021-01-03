@@ -117,11 +117,11 @@ Ardından, Opencv'in unicode karakterleri içeren görüntü yollarını destekl
 Görüntüyü önce print (img) kullanarak yazdırmayı denedim, önce 'Bulunamadı' yazıyordu bu, yanlış görüntü yolu vermiş olduğum demekti, yolu düzelttim ve tekrar denedim.Bu şekilde hatayı ortadan kaldırdım. 
 
 `try:  `  
-     ` img.shape  `  
-     ` print("checked for shape".format(img.shape))  `  
+ `     img.shape  `  
+`      print("checked for shape".format(img.shape))  `  
 `except AttributeError:  `  
-     ` print("shape not found") `   
-     ` #code to move to next frame`     
+`      print("shape not found") `   
+ `     #code to move to next frame`     
     
 2- error: OpenCV(4.5.1) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-oduouqig\opencv\modules\highgui\src\window.cpp:376: error: (-215:Assertion failed) size.width>0 && size.height>0 in function 'cv::imshow'
 
@@ -151,7 +151,7 @@ Projenin ilk aşamasında kullanılan araçlar:
 
 9. Github   
   
-10. Youtube  
+ 10. Youtube  
 
 
 **5- İŞ DAĞILIMI** 
