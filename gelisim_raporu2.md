@@ -54,7 +54,7 @@ Projem için gerekli hazırlığı yaptıktan sonra araç tespiti ve sayımı ş
 
 ![Arac_Tespit_Sayimi](https://user-images.githubusercontent.com/56633000/103484979-fc517f80-4e03-11eb-8f4c-27444d5b97d7.PNG)
 
-##### Öğrenilen Kavramlar
+#### Öğrenilen Kavramlar
 
 Görüntü İşleme, görüntüyü dijital form haline getirmek ve bazı işlemleri gerçekleştirmek için geliştirilmiş, spesifik görüntü elde etmek veya ondan bazı yararlı bilgiler çıkarmak için kullanılan bir yöntemdir. Bu yöntemin girdisi video kesiti veya fotoğraf gibi bir görüntüdür. Çıktısı ise görüntünün istenilen ya da dikkat edilmesi gereken bölümüne karşılık gelir.   
 Görüntü işleme temel olarak üç adımda incelenmektedir:  
@@ -103,7 +103,7 @@ Yönlendirilmiş gradyanların histogramı, nesne algılama amacıyla bilgisayar
 
 Template Matching yöntemi dışındaki yöntemler “Sınıflandırıcı” olarak tanımlanan Machine Learning algoritmalarıdır.
 
-##### Karşılaştığım Sorunlar ve Çözümleri  
+#### Karşılaştığım Sorunlar ve Çözümleri  
 
 1- AttributeError: 'NoneType' object has no attribute 'shape'
 
