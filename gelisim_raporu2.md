@@ -93,11 +93,14 @@ Bu yöntem kaynak görüntüde aranan nesneyi piksel yoğunluğuna(intensity) g�
 ![lbp](https://user-images.githubusercontent.com/56633000/103486364-5a836000-4e0e-11eb-8a7d-89ddcf77fd80.png)
 
 
+
 4.HOG – Histogram of Oriented Gradients:
 Yönlendirilmiş gradyanların histogramı, nesne algılama amacıyla bilgisayarla görme ve görüntü işlemede kullanılan bir özellik tanımlayıcıdır. Teknik, bir görüntünün lokalize kısımlarındaki gradyan yönelim oluşumlarını sayar.
 
 
+
 ![histogram_og](https://user-images.githubusercontent.com/56633000/103486403-b2ba6200-4e0e-11eb-82a7-995f1941cbe2.png)
+
 
 
 Template Matching yöntemi dışındaki yöntemler “Sınıflandırıcı” olarak tanımlanan Machine Learning algoritmalarıdır.
