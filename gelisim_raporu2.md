@@ -11,6 +11,13 @@ Gantt Chart : İş bölümünün zamanlaması Mayıs 2021’de bitmek üzerine y
 
 **2- KAYNAKLAR**  
 
+Görüntü İşleme ve Nesne Tespiti çalışmalarım için faydalandığım kaynaklar:
+
+1. https://www.udemy.com/course/derin-ogrenmeye-giris/
+2. https://youtu.be/hRzBtQh6wuU
+3. https://youtu.be/UwdKG0m1I8s
+4. https://youtu.be/IdBnsNttXq0
+5. 
 
 
 **3- ZORLUKLAR**  
