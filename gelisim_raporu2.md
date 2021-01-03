@@ -30,26 +30,44 @@ Görüntü İşleme ve Nesne Tespiti çalışmaları için faydalandığım kayn
 8. Pişkin,Mesut. "Opencv Eğitim Serisi", 24 Ekim 2016, https://mesutpiskin.com/blog/opencv-egitim-serisi    
    
 9. Sarai,Rebeca. "Vehicle Recognition", Towards Data Science, 8 Nisan 2017, https://towardsdatascience.com/vehicle-recognition-in-external-environments-through-image-processing-87dd00237dc8    
-   
-10. Digital Image Processing, R. C. Gonzalez, R. E. Woods
 
-11. https://en.wikipedia.org/wiki/Digital_image_processing,  
-    "Digital Image Processing"
-    
-12. Görüntü İşleme Ders Notları  
+10. "Digital Image Processing", Wikipedia, https://en.wikipedia.org/wiki/Digital_image_processing   
+      
+11. Görüntü İşleme Ders Notları  
     İstanbul Üniversitesi Cerrahpaşa, 2019-2020 Bilgisayar Mühendisliği Bölümü , Doç. Dr. Selçuk SEVGEN  
     
-13. https://opencv.org/,  
-    "Opencv Kurulumu"
-    
-14. https://stackoverflow.com/,  
-    "Hata Çözümlemeleri"
-    
-15. Kızrak,Ayyüce,Merve. "Derin Öğrenmeye Giriş", Github, 16 Ağustos 2020, https://github.com/ayyucekizrak
+12. "Opencv Kurulumu", https://opencv.org/,  
+      
+13. "Hata Çözümlemeleri", https://stackoverflow.com/,  
+      
+14. Kızrak,Ayyüce,Merve. "Derin Öğrenmeye Giriş", Github, 16 Ağustos 2020, https://github.com/ayyucekizrak
 
 
 
 **3- ZORLUKLAR**  
+
+Projeye başlamadan önce OpenCV gibi gerekli kütüphane kurulumlarını gerçekleştirdim.Kurulumdan sonra literatür taraması aşamasındaki nesne tespiti üzerine bulduğum faydalı eğitimleri izledim.Eğitimden sonra hem kütüphanelerin kullanılması hem de görüntü işleme aşamasına geçtim.Bu aşamada Rakam Tanıma, Yüz tanıma gibi çeşitli uygulamaları gerçekleştirdim ve kodlarını Github repoma ekledim.
+
+### Öğrenilen Kavramlar
+
+Görüntü İşleme, görüntüyü dijital form haline getirmek ve bazı işlemleri gerçekleştirmek için geliştirilmiş, spesifik görüntü elde etmek veya ondan bazı yararlı bilgiler çıkarmak için kullanılan bir yöntemdir. Bu yöntemin girdisi video kesiti veya fotoğraf gibi bir görüntüdür. Çıktısı ise görüntünün istenilen ya da dikkat edilmesi gereken bölümüne karşılık gelir.   
+Görüntü işleme temel olarak üç adımda incelenmektedir:  
+
+– Gerekli araçlar ile imajı aktarılması  
+– Görüntünün analiz edilerek istenilen doğrultuda işlenmesi  
+– Analiz edilip işlenen veri raporu ve çıktısının, sonucunun alınması  
+
+![sema](https://user-images.githubusercontent.com/56633000/103483399-1c7b4180-4df8-11eb-98f8-27e429141b5d.jpg)  
+
+
+Nesne tanıma, görüntü işlemede büyük önem taşımaktadır. Bu ihtiyaç üzerine OpenCV de geliştirilmiş bir çok yöntem bulunmaktadır. 
+
+Nesne tespiti için 4 farklı yöntem mevcuttur. Bu yöntemler;
+
+Template Matching (Şablon Eşleştirme)
+HAAR Cascade
+LBP – Local Binary Pattern
+HOG – Histogram of Oriented Gradients
 
 
 
