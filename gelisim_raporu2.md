@@ -13,7 +13,7 @@ Gantt Chart : İş bölümünün zamanlaması Mayıs 2021’de bitmek üzerine y
 
 Görüntü İşleme ve Nesne Tespiti çalışmaları için faydalandığım kaynaklar:
 
-1. https://www.udemy.com/course/derin-ogrenmeye-giris/,
+1. https://www.udemy.com/course/derin-ogrenmeye-giris/,  
    "Derin Öğrenmeye Giriş"
 2. https://youtu.be/hRzBtQh6wuU,  
    "Python ile Görüntü İşleme"
