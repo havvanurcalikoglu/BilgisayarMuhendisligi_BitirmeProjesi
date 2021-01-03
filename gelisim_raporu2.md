@@ -73,31 +73,63 @@ Nesne tespiti için 4 farklı yöntem mevcuttur. Bu yöntemler;
 1.Template Matching (Şablon Eşleştirme):  
 Şablon eşleme, bir görüntünün şablon görüntüsüyle eşleşen küçük kısımlarını bulmak için dijital görüntü işlemede kullanılan bir tekniktir. Görüntülerdeki kenarları algılamanın bir yolu olarak da kullanılabilir.Kaynak görüntü üzerinde nesneyi tüm piksellerde dolaşarak aramaktadır. Buda görüntünün birebir aynısı olarak aranması demektir. Bu yüzden nesneyi ayırt etmede çok fazla başarılı değildir.
 
-![template-matching-sonuc](https://user-images.githubusercontent.com/56633000/103485949-35d9b900-4e0b-11eb-96e5-2db57c751a30.jpg)
+
+![t_matching](https://user-images.githubusercontent.com/56633000/103486548-a551a780-4e0f-11eb-8320-aa64efb1a00a.jpg)
+
+![template_matching](https://user-images.githubusercontent.com/56633000/103486533-8eab5080-4e0f-11eb-9ec9-9b78ab5e9469.jpg)
+
 
 2.HAAR Cascade:  
 Haarcascade sınıflandırıcısında, nesnenin bulunduğu resimler üzerinden geçirilerek değerler oluşturulur. Örneğin yüz taramasında ağız, burun, alın, saç gibi bölgelerde birçok karanlık aydınlık özellikleri oluşturulacaktır. Bunların her birinden hedef değerler oluşturulmaktadır. Ve bu işlem çerçeve büyüklükleri değiştirilerek diğer aşamalarda tekrar edilmektedir.Bu çerçeveler(zayıf sınıflandırıcılar) her resim boyutu için düşünüldüğünde yüz binlerce çekirdek oluşacaktır. Negatif resimler üzerinde tarama yapılarak içinde nesne bulunmadığı için kullanılmayacak olan çerçevelerin büyük çoğunluğu elenecektir. Pozitif resimlerde nesne seçilerek nesnedeki kullanılacak çerçeveler belirlenecektir. Bunun için eğitim sırasında pozitif resimlerde nesnenin milimetrik seçimine dikkat edilmelidir.  Pozitif ve negatif resim örneklerinin çok olması istenilen nesnede daha iyi sonuçlar almak için önemlidir.  
 Bu işlemlerin hem eğitimde hem de nesnelerin bulunmasında bilgisayarı çok yoracağı ve işlemlerin uzun süreceği düşünülebilir. Real time görüntü işlemede hız çok önemlidir. Haarcascade sınıflandırıcısında öncelikle resimlerin integralleri alınır. Böylelikle piksel değerlerinin tek tek toplamları hesaplanmak yerine integralle hesaplanmış olmaktadır. Böylelikle bilgisayardan büyük bir işlem gücü kaldırılacaktır.    
 
+
 ![haarcascade-siniflandirici](https://user-images.githubusercontent.com/56633000/103486277-bb5e6880-4e0d-11eb-935f-3f748def457c.jpg)
+
 
 3.LBP – Local Binary Pattern  (Yerel İkili Örüntü Tabanli Veri Gizleme Algoritması):
 Bu yöntem kaynak görüntüde aranan nesneyi piksel yoğunluğuna(intensity) göre bulmaktadır. Daha teknik olarak, bir noktanın etrafındaki piksellerin yoğunluk değerlerine göre oluşan ikili(binary) örüntülerden yaratılır ve bu örüntüler üzerinde işlemler gerçekleştirerek nesneyi aramaktadır.  
 
+
 ![lbp](https://user-images.githubusercontent.com/56633000/103486364-5a836000-4e0e-11eb-8a7d-89ddcf77fd80.png)
+
 
 4.HOG – Histogram of Oriented Gradients:
 Yönlendirilmiş gradyanların histogramı, nesne algılama amacıyla bilgisayarla görme ve görüntü işlemede kullanılan bir özellik tanımlayıcıdır. Teknik, bir görüntünün lokalize kısımlarındaki gradyan yönelim oluşumlarını sayar.
+
 
 ![histogram_og](https://user-images.githubusercontent.com/56633000/103486403-b2ba6200-4e0e-11eb-82a7-995f1941cbe2.png)
 
 
 Template Matching yöntemi dışındaki yöntemler “Sınıflandırıcı” olarak tanımlanan Machine Learning algoritmalarıdır.
 
-##### Karşılaşılan Sorunlar ve Çözümleri  
+##### Karşılaştığım Sorunlar ve Çözümleri  
 
+1- AttributeError: 'NoneType' object has no attribute 'shape'
 
+Bunun nedeni, görüntünün yolunun yanlış olması veya yazdığım görüntünün adının yanlış olmasıdır.Öncelikle, sağladığım yolun geçerli olduğunu kontrol ettim.  
 
+Ardından, Opencv'in unicode karakterleri içeren görüntü yollarını desteklemediğini öğrendim.Görüntü yolumda Unicode karakterler içerdiğinden, görüntüyü okumak için aşağıdaki kodu kullandım:  
+
+`import numpy as np
+import cv2
+
+# img is in BGR format if the underlying image is a color image
+img = cv2.imdecode(np.fromfile(im_path, dtype=np.uint8), cv2.IMREAD_UNCHANGED)`
+
+`try:
+    img.shape
+    print("checked for shape".format(img.shape))
+except AttributeError:
+    print("shape not found")
+    #code to move to next frame` 
+    
+Görüntüyü önce print (img) kullanarak yazdırmayı denedim, önce 'Bulunamadı' yazıyordu bu, yanlış görüntü yolu vermiş olduğum demekti, yolu düzelttim ve tekrar denedim.Bu şekilde hatayı ortadan kaldırdım.  
+
+2- error: OpenCV(4.5.1) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-oduouqig\opencv\modules\highgui\src\window.cpp:376: error: (-215:Assertion failed) size.width>0 && size.height>0 in function 'cv::imshow'
+
+Aldığım hataya karşılık bazı çözüm önerileri okudum."Dosya verilen yolda yoksa, cv2 bu hatayı döndürür. Bu nedenle, dosyanın verilen yolda olup olmadığını kontrol edin." ve "Problem imshow() ile ilgili değil - resminiz doğru yüklenmemiş ve geçersiz. Devam etmeden önce imread () çıktısını kontrol etmelisiniz."
+Görselin yolunu yeniden verip, çalıştırdığımda hata ortadan kalktı.
 
 
 **4- ARAÇLAR**  
