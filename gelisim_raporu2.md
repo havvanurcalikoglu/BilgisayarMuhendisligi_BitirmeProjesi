@@ -74,8 +74,6 @@ Nesne tespiti için 4 farklı yöntem mevcuttur. Bu yöntemler;
 Şablon eşleme, bir görüntünün şablon görüntüsüyle eşleşen küçük kısımlarını bulmak için dijital görüntü işlemede kullanılan bir tekniktir. Görüntülerdeki kenarları algılamanın bir yolu olarak da kullanılabilir.Kaynak görüntü üzerinde nesneyi tüm piksellerde dolaşarak aramaktadır. Buda görüntünün birebir aynısı olarak aranması demektir. Bu yüzden nesneyi ayırt etmede çok fazla başarılı değildir.
 
 
-![t_matching](https://user-images.githubusercontent.com/56633000/103486548-a551a780-4e0f-11eb-8320-aa64efb1a00a.jpg)
-
 ![template_matching](https://user-images.githubusercontent.com/56633000/103486533-8eab5080-4e0f-11eb-9ec9-9b78ab5e9469.jpg)
 
 
