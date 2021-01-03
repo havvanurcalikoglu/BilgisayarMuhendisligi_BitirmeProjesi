@@ -1,1 +1,1 @@
-#### Kodda kullanılan video ve görsel eklenmiştir.
+#### Görüntü işleme ve nesne tespiti çalışmaları
