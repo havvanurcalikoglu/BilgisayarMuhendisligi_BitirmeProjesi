@@ -68,12 +68,35 @@ Görüntü işleme temel olarak üç adımda incelenmektedir:
 
 Nesne tanıma, görüntü işlemede büyük önem taşımaktadır. Bu ihtiyaç üzerine OpenCV de geliştirilmiş bir çok yöntem bulunmaktadır. 
 
-Nesne tespiti için 4 farklı yöntem mevcuttur. Bu yöntemler;
+Nesne tespiti için 4 farklı yöntem mevcuttur. Bu yöntemler;  
 
-Template Matching (Şablon Eşleştirme)
-HAAR Cascade
-LBP – Local Binary Pattern
-HOG – Histogram of Oriented Gradients
+1.Template Matching (Şablon Eşleştirme):  
+Şablon eşleme, bir görüntünün şablon görüntüsüyle eşleşen küçük kısımlarını bulmak için dijital görüntü işlemede kullanılan bir tekniktir. Görüntülerdeki kenarları algılamanın bir yolu olarak da kullanılabilir.Kaynak görüntü üzerinde nesneyi tüm piksellerde dolaşarak aramaktadır. Buda görüntünün birebir aynısı olarak aranması demektir. Bu yüzden nesneyi ayırt etmede çok fazla başarılı değildir.
+
+![template-matching-sonuc](https://user-images.githubusercontent.com/56633000/103485949-35d9b900-4e0b-11eb-96e5-2db57c751a30.jpg)
+
+2.HAAR Cascade:  
+Haarcascade sınıflandırıcısında, nesnenin bulunduğu resimler üzerinden geçirilerek değerler oluşturulur. Örneğin yüz taramasında ağız, burun, alın, saç gibi bölgelerde birçok karanlık aydınlık özellikleri oluşturulacaktır. Bunların her birinden hedef değerler oluşturulmaktadır. Ve bu işlem çerçeve büyüklükleri değiştirilerek diğer aşamalarda tekrar edilmektedir.Bu çerçeveler(zayıf sınıflandırıcılar) her resim boyutu için düşünüldüğünde yüz binlerce çekirdek oluşacaktır. Negatif resimler üzerinde tarama yapılarak içinde nesne bulunmadığı için kullanılmayacak olan çerçevelerin büyük çoğunluğu elenecektir. Pozitif resimlerde nesne seçilerek nesnedeki kullanılacak çerçeveler belirlenecektir. Bunun için eğitim sırasında pozitif resimlerde nesnenin milimetrik seçimine dikkat edilmelidir.  Pozitif ve negatif resim örneklerinin çok olması istenilen nesnede daha iyi sonuçlar almak için önemlidir.  
+Bu işlemlerin hem eğitimde hem de nesnelerin bulunmasında bilgisayarı çok yoracağı ve işlemlerin uzun süreceği düşünülebilir. Real time görüntü işlemede hız çok önemlidir. Haarcascade sınıflandırıcısında öncelikle resimlerin integralleri alınır. Böylelikle piksel değerlerinin tek tek toplamları hesaplanmak yerine integralle hesaplanmış olmaktadır. Böylelikle bilgisayardan büyük bir işlem gücü kaldırılacaktır.    
+
+![haarcascade-siniflandirici](https://user-images.githubusercontent.com/56633000/103486277-bb5e6880-4e0d-11eb-935f-3f748def457c.jpg)
+
+3.LBP – Local Binary Pattern  (Yerel İkili Örüntü Tabanli Veri Gizleme Algoritması):
+Bu yöntem kaynak görüntüde aranan nesneyi piksel yoğunluğuna(intensity) göre bulmaktadır. Daha teknik olarak, bir noktanın etrafındaki piksellerin yoğunluk değerlerine göre oluşan ikili(binary) örüntülerden yaratılır ve bu örüntüler üzerinde işlemler gerçekleştirerek nesneyi aramaktadır.  
+
+![lbp](https://user-images.githubusercontent.com/56633000/103486364-5a836000-4e0e-11eb-8a7d-89ddcf77fd80.png)
+
+4.HOG – Histogram of Oriented Gradients:
+Yönlendirilmiş gradyanların histogramı, nesne algılama amacıyla bilgisayarla görme ve görüntü işlemede kullanılan bir özellik tanımlayıcıdır. Teknik, bir görüntünün lokalize kısımlarındaki gradyan yönelim oluşumlarını sayar.
+
+![histogram_og](https://user-images.githubusercontent.com/56633000/103486403-b2ba6200-4e0e-11eb-82a7-995f1941cbe2.png)
+
+
+Template Matching yöntemi dışındaki yöntemler “Sınıflandırıcı” olarak tanımlanan Machine Learning algoritmalarıdır.
+
+##### Karşılaşılan Sorunlar ve Çözümleri  
+
+
 
 
 
