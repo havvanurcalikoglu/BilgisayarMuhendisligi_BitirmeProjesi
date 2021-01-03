@@ -36,7 +36,7 @@ Görüntü İşleme ve Nesne Tespiti çalışmaları için faydalandığım kayn
 11. Görüntü İşleme Ders Notları  
     İstanbul Üniversitesi Cerrahpaşa, 2019-2020 Bilgisayar Mühendisliği Bölümü , Doç. Dr. Selçuk SEVGEN  
     
-12. "Opencv Kurulumu", https://opencv.org/  
+12. "Opencv Kurulumu", https://opencv.org/    
       
 13. "Hata Çözümlemeleri", https://stackoverflow.com/  
       
@@ -47,7 +47,12 @@ Görüntü İşleme ve Nesne Tespiti çalışmaları için faydalandığım kayn
 **3- ZORLUKLAR**  
 
 Projeye başlamadan önce OpenCV gibi gerekli kütüphane kurulumlarını gerçekleştirdim.Kurulumdan sonra literatür taraması aşamasındaki nesne tespiti üzerine bulduğum faydalı eğitimleri izledim.Eğitimden sonra hem kütüphanelerin kullanılması hem de görüntü işleme aşamasına geçtim.Bu aşamada Rakam Tanıma, Kenar Belirleme gibi çeşitli uygulamaları gerçekleştirdim ve kodlarını Github repoma ekledim.
+
+![edge](https://user-images.githubusercontent.com/56633000/103484967-e774ec00-4e03-11eb-80c1-694d10badd56.png) 
+
 Projem için gerekli hazırlığı yaptıktan sonra araç tespiti ve sayımı şeklinde projenin ilk kısmına başladım.Veri seti olarak bulduğum örnek bir kaynağı kodlarım üzerinde çalıştırıp, sonuçlarını inceledim.
+
+![Arac_Tespit_Sayimi](https://user-images.githubusercontent.com/56633000/103484979-fc517f80-4e03-11eb-8f4c-27444d5b97d7.PNG)
 
 ##### Öğrenilen Kavramlar
 
