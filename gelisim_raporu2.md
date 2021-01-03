@@ -17,7 +17,8 @@ Görüntü İşleme ve Nesne Tespiti çalışmalarım için faydalandığım kay
 2. https://youtu.be/hRzBtQh6wuU
 3. https://youtu.be/UwdKG0m1I8s
 4. https://youtu.be/IdBnsNttXq0
-5. 
+5. https://github.com/mmenesyucel/Goruntu-Isleme-Arac-Takibi
+6. 
 
 
 **3- ZORLUKLAR**  
