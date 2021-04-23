@@ -3,6 +3,8 @@
 ### Araçların Çevresinde Tehlike Oluşturabilecek Varlıkların Görüntü İşleme ile Tespit Edilmesi
 
 
+
+
 **1- DÜZELTMELER**
 
 Güncel Gantt Chart: 
@@ -91,6 +93,15 @@ Araçların hareketleri incelenerek, daha fazla doğruluk oranlı sayım yapılm
 
 Bu çalışmada gömülü bir platform üzerinde çalışan gerçek zamanlı bir şerit takip sistemi önerilmiştir. Sürücülerin sürüş sırasında uykuya dalmaları nedeniyle araçlarının kontrolünü kaybederek şerit değiştirdikleri bilinmektedir.Araçların kendi şeritlerinde hareket ettiğini tespit edebilmek için kenar (şerit) tespiti yapılmıştır.Gerekli kod ve medyayı src/proje klasörü altında bulabilirsiniz.
 
+#### Öğrenilen Kavramlar  
+Şeritlerin  tespit edilebilmesi için  şerit  çizgilerin  başlangıç  noktası,  bitiş  noktası  ve normalle  yaptıkları  açı  değerlerinin  bulunması gerekmektedir.  Bunun  için  bu  çalışmada  popüler  çizgi bulma  yaklaşımlardan  biri  olan  Hough  dönüşümü kullanılmıştır.Hough  dönüşümü p ve ϴ değerlerini bulmayı amaçlamaktadır.Oluşturulan Hough dönüşüm uzayında en yüksek değere sahip olan noktalar incelenerek görüntü  üzerindeki çizgiler bulunmaktadır.Bu şekilde görüldüğü gibi  Hough  dönüşümü  ile  şerit  çizgileri  üzerinde  bulunan doğruların tespiti sağlanabilmiştir. 
+
+![line](https://user-images.githubusercontent.com/56633000/115931079-38801d00-a493-11eb-95b0-9d4dad59d587.PNG)
+
+
+![x](https://user-images.githubusercontent.com/56633000/115931231-74b37d80-a493-11eb-865f-0c0b4d4b1556.PNG)
+
+
 
 
 **2- KAYNAKLAR**
@@ -139,6 +150,7 @@ Görüntü İşleme ve Nesne Tespiti çalışmaları için faydalandığım kayn
 
 20. Çelik, U., Oral, M. (2003). Motorlu Araçlar İçin Plaka Tanıma Sistemi, Elektrik-Elektronik Bilgisayar Mühendisliği 10. Ulusal Kongresi, (pp. 499-502), İTÜ : İstanbul.
 
+ 
  
  
 **3- ZORLUKLAR**
@@ -194,6 +206,7 @@ Geri beslemeli Yapay Sinir Ağları (YSA)’ da, en az bir hücrenin çıkışı
 
 
 
+
 **4- ARAÇLAR**
 
 Projede kullandığım araçlar: 
@@ -215,6 +228,3 @@ Projede kullandığım araçlar:
 8. Udemy : Udemy.com üzerinden faydalandığım kursları içinde barındıran, kitlesel çevrimiçi açık ders ve bir çevrimiçi öğrenme platformudur.   
 
 9. Stack Overflow : Aldığım kod hatalarını düzeltmek için başvurduğum kullanıcı odaklı soru cevap sitesidir.      
-
-  
-  
