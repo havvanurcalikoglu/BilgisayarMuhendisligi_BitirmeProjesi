@@ -159,9 +159,16 @@ Kod Hataları:
 
 1. IndentationError: unindent does not match any outer indentation level
 
+Python, kod bloklarını tanımlamak için girinti kullanır, kodu herhangi bir miktarda girintileyebilirsiniz, ancak aynı seviyede olması için tam olarak eşleşmesi gerekir.
+
 2. error: OpenCV(4.5.1) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-oduouqig\opencv\modules\core\src\arithm.cpp:669: error: (-209:Sizes of input arguments do not match) The operation is neither 'array op array' (where arrays have the same size and the same number of channels), nor 'array op scalar', nor 'scalar op array' in function 'cv::arithm_op'
 
 Bu sorun, bir iddianın başarısız olduğunu söylüyor. Dosya verilen yolda yoksa, cv2 bu hatayı döndürür. Bu nedenle, dosyanın verilen yolda olup olmadığını kontrol edin.
+
+
+Henüz Çözülmemiş Zorluklar:  
+
+Şu anda implementasyon ve test aşaması birlikte yürütülmektedir.Araçlar, insanlar ve yol şeritleri ayrı şekilde tespit edilmiş; kodu yazılmıştır.Bundan sonraki kısımda araç ve insanlar arasında ilişki kodu yazılarak, kaza olma olasılıkları üzerine çalışılacaktır.Kodlama kısmı ise tamamen bittikten sonra, yapılan araştırmalar ve detaylı proje rapora yazılıp, sunumu yapılacaktır.
 
 
 #### Öğrenilen Kavramlar 
@@ -184,9 +191,6 @@ Bu ağlarda süreç elemanlarının değerlerinin ve dolayısıyla ağın çıkt
 ![ab](https://user-images.githubusercontent.com/56633000/115928324-965e3600-a48e-11eb-9b92-3c460f58b76d.PNG)
 
 Geri beslemeli Yapay Sinir Ağları (YSA)’ da, en az bir hücrenin çıkışı kendisine ya da diğer hücrelere giriş olarak verilir ve genellikle geri besleme bir geciktirme elemanı üzerinden yapılır. Geri besleme, bir katmandaki hücreler arasında olduğu gibi katmanlar arasındaki hücreler arasında da olabilir. Bu yapısı ile geri beslemeli YSA, doğrusal olmayan dinamik bir davranış gösterir. 
-
-Henüz çözülmemiş zorluklar:  
-Şu anda implementasyon ve test aşaması birlikte yürütülmektedir.Araçlar, insanlar ve yol şeritleri ayrı şekilde tespit edilmiş; kodu yazılmıştır.Bundan sonraki kısımda araç ve insanlar arasında ilişki kodu yazılarak, kaza olma olasılıkları üzerine çalışılacaktır.Kodlama kısmı ise tamamen bittikten sonra, yapılan araştırmalar ve detaylı proje rapora yazılıp, sunumu yapılacaktır.
 
 
 
