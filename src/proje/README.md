@@ -23,3 +23,14 @@ Video eklenerek, kod çalıştırıldıktan sonraki çıktıdan anlık bir gör�
 Fotoğraf eklenerek, kod çalıştırıldıktan sonraki çıktıdan anlık görüntü:
 
 ![detection](https://user-images.githubusercontent.com/56633000/115875900-6131f380-a44e-11eb-8534-b9d7d456e7eb.PNG)
+
+
+
+## İNSAN TESPİTİ
+
+Fotoğraflar eklenerek, kod çalıştırıldıktan sonraki çıktıdan anlık görüntüler:
+
+![insanTespit](https://user-images.githubusercontent.com/56633000/115900535-b8dd5880-a468-11eb-88b2-ee9e7cb65dc5.PNG)
+
+![Ekran Görüntüsü (350)](https://user-images.githubusercontent.com/56633000/115900579-c692de00-a468-11eb-9b04-c482b98a5097.png)
+
