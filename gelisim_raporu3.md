@@ -81,30 +81,8 @@ olmakla birlikte daha düşük başarı oranına sahiptirler.
 
 Araçların hareketleri incelenerek, daha fazla doğruluk oranlı sayım yapılmıştır.Gerekli kod ve medyayı src/proje klasörü altında bulabilirsiniz.
 
-#### Öğrenilen Kavramlar 
-DNN (Derin Sinir Ağı): Canlıların davranışlarını inceleyip, matematiksel olarak modelleyip, benzer yapay modellerin üretilmesine sibernetik denir. Eğitilebilir, adaptif ve kendi kendine organize olup öğrenebilen ve değerlendirme yapabilen yapay sinir ağları ile insan beyninin öğrenme yapısı modellenmeye çalışılmaktadır. Aynı insanda olduğu gibi yapay sinir ağları vasıtasıyla makinelerin eğitilmesi, öğrenmesi ve karar vermesi amaçlanmaktadır.  
-  
-Tek Katmanlı Algılayıcılar: Tek katmanlı yapay sinir ağları sadece girdi ve çıktı (Ç) katmanlarından oluşur. Çıktı üniteleri bütün girdi ünitelerine (X) bağlanmaktadır ve her bağlantının bir ağırlığı (W) vardır. İki girdi ve bir çıktıdan oluşan tek katmanlı bir yapay sinir ağıdır. 
-
-Bu ağlarda süreç elemanlarının değerlerinin ve dolayısıyla ağın çıktısının sıfır olmasını önleyen bir de eşik değeri (Φ) vardır ve değeri daima 1’dir. Ağın çıktısı ağırlıklandırılmış girdi değerlerinin eşik değeri ile toplanması sonucu bulunur. Bu girdi ile bir aktivasyon fonksiyonundan geçirilerek ağın çıktısı hesaplanır. Tek katmanlı algılayıcılarda çıktı fonksiyonu doğrusal bir fonksiyondur ve 1 veya -1 değerlerini almaktadır. Eğer çıktı 1 ise birinci sınıfa -1 ise ikinci sınıfa kabul edilmektedir.  
-
-Çok Katlı Algılayıcılar: Algılayıcı ve Adaline yöntemleri doğrusal olmayan çözümler üretemediği için hem mimari hem de eğitim algoritması açısından iyileştirilmiş Çok Katmanlı Algılayıcı (MLP) ağı önerilmiştir. Mimari açıdan doğrusal olmayan aktivasyon fonksiyonuna sahip birçok nöronun birbirine hiyerarşik olarak bağlandığı bir yapıya sahip olan MLP, Algılayıcı ve Adaline yöntemlerinin avantajları yanı sıra geri-yayılım adındaki öğrenme sistemini kullanmaktadır ve genel olarak yapay sinir ağları ileri beslemeli ve geri beslemeli ağlar olarak ikiye ayrılmaktadır.  
-
--İleri Beslemeli Ağlar: 
-
-![b](https://user-images.githubusercontent.com/56633000/115928215-70389600-a48e-11eb-8b8b-2b115c8296e3.PNG)
-
-İleri beslemeli sinir ağları tek yönlü sinyal akışı için izin verir. Ayrıca, ileri beslemeli sinir ağları çoğu katmanlar halinde organize edilmektedir.İleri beslemeli yapay sinir ağında, hücreler katmanlar şeklinde düzenlenir ve bir katmandaki hücrelerin çıkışları bir sonraki katmana ağırlıklar üzerinden giriş olarak verilir. Giriş katmanı, dış ortamlardan aldığı bilgileri hiçbir değişikliğe uğratmadan ara (gizli) katmandaki hücrelere iletir. Bilgi, ara ve çıkış katmanında işlenerek ağ çıkışı belirlenir.  
-
--Geri Beslemeli Yapay Sinir Ağları:
-
-![ab](https://user-images.githubusercontent.com/56633000/115928324-965e3600-a48e-11eb-9b92-3c460f58b76d.PNG)
-
-Geri beslemeli Yapay Sinir Ağları (YSA)’ da, en az bir hücrenin çıkışı kendisine ya da diğer hücrelere giriş olarak verilir ve genellikle geri besleme bir geciktirme elemanı üzerinden yapılır. Geri besleme, bir katmandaki hücreler arasında olduğu gibi katmanlar arasındaki hücreler arasında da olabilir. Bu yapısı ile geri beslemeli YSA, doğrusal olmayan dinamik bir davranış gösterir. 
-
 
 5. Yapılan Çalışma:
-
 
 ![Ekran Alıntısı2](https://user-images.githubusercontent.com/56633000/115817415-79c8ec00-a403-11eb-945f-407446071612.PNG)
 
@@ -184,6 +162,28 @@ Kod Hataları:
 2. error: OpenCV(4.5.1) C:\Users\appveyor\AppData\Local\Temp\1\pip-req-build-oduouqig\opencv\modules\core\src\arithm.cpp:669: error: (-209:Sizes of input arguments do not match) The operation is neither 'array op array' (where arrays have the same size and the same number of channels), nor 'array op scalar', nor 'scalar op array' in function 'cv::arithm_op'
 
 Bu sorun, bir iddianın başarısız olduğunu söylüyor. Dosya verilen yolda yoksa, cv2 bu hatayı döndürür. Bu nedenle, dosyanın verilen yolda olup olmadığını kontrol edin.
+
+
+#### Öğrenilen Kavramlar 
+DNN (Derin Sinir Ağı): Canlıların davranışlarını inceleyip, matematiksel olarak modelleyip, benzer yapay modellerin üretilmesine sibernetik denir. Eğitilebilir, adaptif ve kendi kendine organize olup öğrenebilen ve değerlendirme yapabilen yapay sinir ağları ile insan beyninin öğrenme yapısı modellenmeye çalışılmaktadır. Aynı insanda olduğu gibi yapay sinir ağları vasıtasıyla makinelerin eğitilmesi, öğrenmesi ve karar vermesi amaçlanmaktadır.  
+  
+Tek Katmanlı Algılayıcılar: Tek katmanlı yapay sinir ağları sadece girdi ve çıktı (Ç) katmanlarından oluşur. Çıktı üniteleri bütün girdi ünitelerine (X) bağlanmaktadır ve her bağlantının bir ağırlığı (W) vardır. İki girdi ve bir çıktıdan oluşan tek katmanlı bir yapay sinir ağıdır. 
+
+Bu ağlarda süreç elemanlarının değerlerinin ve dolayısıyla ağın çıktısının sıfır olmasını önleyen bir de eşik değeri (Φ) vardır ve değeri daima 1’dir. Ağın çıktısı ağırlıklandırılmış girdi değerlerinin eşik değeri ile toplanması sonucu bulunur. Bu girdi ile bir aktivasyon fonksiyonundan geçirilerek ağın çıktısı hesaplanır. Tek katmanlı algılayıcılarda çıktı fonksiyonu doğrusal bir fonksiyondur ve 1 veya -1 değerlerini almaktadır. Eğer çıktı 1 ise birinci sınıfa -1 ise ikinci sınıfa kabul edilmektedir.  
+
+Çok Katlı Algılayıcılar: Algılayıcı ve Adaline yöntemleri doğrusal olmayan çözümler üretemediği için hem mimari hem de eğitim algoritması açısından iyileştirilmiş Çok Katmanlı Algılayıcı (MLP) ağı önerilmiştir. Mimari açıdan doğrusal olmayan aktivasyon fonksiyonuna sahip birçok nöronun birbirine hiyerarşik olarak bağlandığı bir yapıya sahip olan MLP, Algılayıcı ve Adaline yöntemlerinin avantajları yanı sıra geri-yayılım adındaki öğrenme sistemini kullanmaktadır ve genel olarak yapay sinir ağları ileri beslemeli ve geri beslemeli ağlar olarak ikiye ayrılmaktadır.  
+
+-İleri Beslemeli Ağlar: 
+
+![b](https://user-images.githubusercontent.com/56633000/115928215-70389600-a48e-11eb-8b8b-2b115c8296e3.PNG)
+
+İleri beslemeli sinir ağları tek yönlü sinyal akışı için izin verir. Ayrıca, ileri beslemeli sinir ağları çoğu katmanlar halinde organize edilmektedir.İleri beslemeli yapay sinir ağında, hücreler katmanlar şeklinde düzenlenir ve bir katmandaki hücrelerin çıkışları bir sonraki katmana ağırlıklar üzerinden giriş olarak verilir. Giriş katmanı, dış ortamlardan aldığı bilgileri hiçbir değişikliğe uğratmadan ara (gizli) katmandaki hücrelere iletir. Bilgi, ara ve çıkış katmanında işlenerek ağ çıkışı belirlenir.  
+
+-Geri Beslemeli Yapay Sinir Ağları:
+
+![ab](https://user-images.githubusercontent.com/56633000/115928324-965e3600-a48e-11eb-9b92-3c460f58b76d.PNG)
+
+Geri beslemeli Yapay Sinir Ağları (YSA)’ da, en az bir hücrenin çıkışı kendisine ya da diğer hücrelere giriş olarak verilir ve genellikle geri besleme bir geciktirme elemanı üzerinden yapılır. Geri besleme, bir katmandaki hücreler arasında olduğu gibi katmanlar arasındaki hücreler arasında da olabilir. Bu yapısı ile geri beslemeli YSA, doğrusal olmayan dinamik bir davranış gösterir. 
 
 
 #### Şu anda implementasyon ve test aşaması birlikte yürütülmektedir.Araçlar, insanlar ve yol şeritleri ayrı şekilde tespit edilmiş; kodu yazılmıştır.Bundan sonraki kısımda araç ve insanlar arasında ilişki kodu yazılarak, kaza olma olasılıkları üzerine çalışılacaktır.Kodlama kısmı ise tamamen bittikten sonra, yapılan araştırmalar ve detaylı proje rapora yazılıp, sunumu yapılacaktır.
