@@ -1,3 +1,0 @@
-
-
-## Yol Kenarlarını Belirleme
