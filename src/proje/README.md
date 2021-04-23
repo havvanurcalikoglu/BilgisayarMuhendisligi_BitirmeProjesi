@@ -34,3 +34,12 @@ Fotoğraflar eklenerek, kod çalıştırıldıktan sonraki çıktıdan anlık g�
 
 ![Ekran Görüntüsü (350)](https://user-images.githubusercontent.com/56633000/115900579-c692de00-a468-11eb-9b04-c482b98a5097.png)
 
+
+
+# ARAÇ TESPİTİ
+
+Video eklenerek, kod çalıştırıldıktan sonraki çıktıdan anlık bir görüntü:
+
+![aracSayim](https://user-images.githubusercontent.com/56633000/115905352-a9610e00-a46e-11eb-84f9-e82745717ca9.PNG)
+
+
