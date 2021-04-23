@@ -185,8 +185,8 @@ Bu ağlarda süreç elemanlarının değerlerinin ve dolayısıyla ağın çıkt
 
 Geri beslemeli Yapay Sinir Ağları (YSA)’ da, en az bir hücrenin çıkışı kendisine ya da diğer hücrelere giriş olarak verilir ve genellikle geri besleme bir geciktirme elemanı üzerinden yapılır. Geri besleme, bir katmandaki hücreler arasında olduğu gibi katmanlar arasındaki hücreler arasında da olabilir. Bu yapısı ile geri beslemeli YSA, doğrusal olmayan dinamik bir davranış gösterir. 
 
-
-#### Şu anda implementasyon ve test aşaması birlikte yürütülmektedir.Araçlar, insanlar ve yol şeritleri ayrı şekilde tespit edilmiş; kodu yazılmıştır.Bundan sonraki kısımda araç ve insanlar arasında ilişki kodu yazılarak, kaza olma olasılıkları üzerine çalışılacaktır.Kodlama kısmı ise tamamen bittikten sonra, yapılan araştırmalar ve detaylı proje rapora yazılıp, sunumu yapılacaktır.
+Henüz çözülmemiş zorluklar:  
+Şu anda implementasyon ve test aşaması birlikte yürütülmektedir.Araçlar, insanlar ve yol şeritleri ayrı şekilde tespit edilmiş; kodu yazılmıştır.Bundan sonraki kısımda araç ve insanlar arasında ilişki kodu yazılarak, kaza olma olasılıkları üzerine çalışılacaktır.Kodlama kısmı ise tamamen bittikten sonra, yapılan araştırmalar ve detaylı proje rapora yazılıp, sunumu yapılacaktır.
 
 
 
