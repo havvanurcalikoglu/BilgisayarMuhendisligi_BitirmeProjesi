@@ -167,6 +167,16 @@ Görüntü İşleme ve Nesne Tespiti çalışmaları için faydalandığım kayn
 
 İmplementasyon safhasında, yanlış tespitler yapılmış ve kod hataları alınmıştır.Stackoverflow, Youtube, Github gibi platformlar sayesinde düzeltmeler yapılarak, kod hataları giderilmiştir.
 
+Yanlış Tespitler:
+
+![z1](https://user-images.githubusercontent.com/56633000/115929407-716ac280-a490-11eb-9648-1e0c6625a3b4.PNG)
+
+Video çekilen kamera hareket halinde olduğundan sanki nesneler de hareket ediyor gibi algılanmıştı.
+
+![z2](https://user-images.githubusercontent.com/56633000/115929623-c8709780-a490-11eb-933e-8cdac3a172b1.PNG)
+
+Birbirine daha yakın insanların sayımında hatalar çıkmıştı.
+
 Kod Hataları:
 
 1. IndentationError: unindent does not match any outer indentation level
@@ -176,7 +186,7 @@ Kod Hataları:
 Bu sorun, bir iddianın başarısız olduğunu söylüyor. Dosya verilen yolda yoksa, cv2 bu hatayı döndürür. Bu nedenle, dosyanın verilen yolda olup olmadığını kontrol edin.
 
 
-### Şu anda implementasyon ve test aşaması birlikte yürütülmektedir.Araçlar, insanlar ve yol şeritleri ayrı şekilde tespit edilmiş; kodu yazılmıştır.Bundan sonraki kısımda araç ve insanlar arasında ilişki kodu yazılarak, kaza olma olasılıkları üzerine çalışılacaktır.Kodlama kısmı ise tamamen bittikten sonra, yapılan araştırmalar ve detaylı proje rapora yazılıp, sunumu yapılacaktır.
+#### Şu anda implementasyon ve test aşaması birlikte yürütülmektedir.Araçlar, insanlar ve yol şeritleri ayrı şekilde tespit edilmiş; kodu yazılmıştır.Bundan sonraki kısımda araç ve insanlar arasında ilişki kodu yazılarak, kaza olma olasılıkları üzerine çalışılacaktır.Kodlama kısmı ise tamamen bittikten sonra, yapılan araştırmalar ve detaylı proje rapora yazılıp, sunumu yapılacaktır.
 
 
 
