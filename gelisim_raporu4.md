@@ -11,7 +11,7 @@ Güncel Gantt Chart:
 ![GuncelAkis](https://user-images.githubusercontent.com/56633000/121725831-6debd300-caf2-11eb-8aa6-f359be0a57a4.png)
 
 
-Projenin son aşaması olan tehlike oluşturabilecek mesafenin ölçümü ve uyarı sistemi de tamamlanmıştır.Ancak hatalı tespitler olduğundan,
+Projenin son aşaması olan tehlike oluşturabilecek mesafenin ölçümü ve uyarı sistemi de tamamlanmıştır.Ancak araçlar ksımında hatalı tespitler olduğundan,
 proje dönem sonuna kadar geliştirilmeye devam edilecektir.Aynı zamanda raporlama bitmiş olup, tez aşaması devam etmektedir.
 İlerleme tabloda güncellenmiştir.Teslim tarihine kadar tezin sonlanması ve proje gelişiminin tamamlanması hedeflenmiştir.
 
@@ -93,7 +93,7 @@ Ardından, insanların araçlar ile arası uzaklığın ortalama en genişliğin
 Merkezler arasındaki mesafeyi ,iki nokta arasındaki uzaklık formülü ile buldum.Kod çalıştırıldığında da mesafeyi ihlal eden araç veya insanların kırmızı dikdörtgen,
 bir sorun teşkil etmeyen araç ve insanları ise yeşil diktörtgen içinde göstererek, çıktı vermeye çalıştım.
   
-Böylece; proje sonlanarak, hareket içinde olan insan ve araçlar arasında mesafe korunmuş, kazaların önüne geçilerek can kaybının azalması sağlanmıştır.
+Böylece; proje sonuna yaklaşarak, hareket içinde olan insan ve araçlar arasında mesafe korunmuş, kazaların önüne geçilerek can kaybının azalması sağlanmıştır.
 
 
 **4- ARAÇLAR**
